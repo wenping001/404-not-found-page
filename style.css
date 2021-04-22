@@ -36,11 +36,11 @@ main {
 @media (min-width: 375px) {
   main {
     flex-wrap: nowrap;
+    justify-content: space-around;
   }
 }
 main img {
   display: block;
-  margin: 0 auto;
   width: 286px;
   height: 238px;
   margin-bottom: 6rem;
@@ -50,7 +50,6 @@ main img {
   main img {
     width: 535px;
     height: 447px;
-    margin-right: 11rem;
   }
 }
 section h1 {
@@ -76,6 +75,11 @@ section a {
   margin-bottom: 14rem;
 }
 
+@media (min-width: 375px) {
+  section {
+    width: 35%;
+  }
+}
 footer {
   font-size: 1.4rem;
   text-align: center;
