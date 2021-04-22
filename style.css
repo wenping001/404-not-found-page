@@ -12,7 +12,7 @@ body {
   padding: 2rem;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 675px) {
   body {
     padding: 3rem 11rem 0 7rem;
   }
@@ -23,7 +23,7 @@ header {
   font-weight: bold;
   margin-bottom: 6rem;
 }
-@media (min-width: 375px) {
+@media (min-width: 675px) {
   header {
     margin-bottom: 10rem;
   }
@@ -33,9 +33,9 @@ main {
   flex-wrap: wrap;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 675px) {
   main {
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
     justify-content: space-around;
   }
 }
@@ -46,11 +46,15 @@ main img {
   margin-bottom: 6rem;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 675px) {
   main img {
     width: 535px;
     height: 447px;
   }
+}
+
+section {
+  width: 100%;
 }
 section h1 {
   font-size: 4.8rem;
@@ -75,9 +79,11 @@ section a {
   margin-bottom: 14rem;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 675px) {
   section {
-    width: 35%;
+    width: 45%;
+    min-width: 450px;
+    max-width: 500px;
   }
 }
 footer {
